@@ -1,0 +1,9 @@
+  {
+    "network": "sepolia",
+    "chainId": null,
+    "deployedAtBlock": 11788692,
+    "IdentityRegistry": "0x38cC76113b786495BB81a7250B7BF899c58DdcB2",
+  "AccessManager": "0xB04CC349d389C00070435d85f92685801B70c15b",
+  "AssetRegistry": "0x2E6E6cfFbe70D749bE5561F96fe6796AB74fafF0",
+  "deployer": "0xf56327103CA39B3B1A6fD9f9D2Bc92562C921980"
+}

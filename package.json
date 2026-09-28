@@ -1,0 +1,39 @@
+{
+  "name": "sih-26125-blockchain-identity-access-asset",
+  "version": "0.1.0",
+  "private": true,
+  "description": "SIH 2026 PS-26125 prototype: blockchain-based secure platform for identity, access control, and digital asset management",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "compile": "hardhat compile",
+    "deploy:localhost": "hardhat run scripts/deploy.ts --network localhost",
+    "deploy:sepolia": "hardhat run scripts/deploy.ts --network sepolia",
+    "seed:localhost": "hardhat run scripts/seed-demo.ts --network localhost",
+    "node": "hardhat node"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.1.0",
+    "@splinetool/react-spline": "^4.1.0",
+    "dotenv": "^17.4.2",
+    "ethers": "^6.13.4",
+    "lucide-react": "^1.46.0",
+    "next": "^14.2.18",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.8",
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@types/node": "^20.16.0",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.20",
+    "hardhat": "^2.22.15",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "typescript": "^5.6.2"
+  }
+}
